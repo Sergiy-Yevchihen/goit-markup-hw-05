@@ -269,15 +269,25 @@
     pointer-events: none;
   }
 
-  .modal-of {
-    fill: #bf4e4e;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-  }
-  .modal-but {
-    fill: #235711;
+
+
+  
     
+    
+  
+  .modal-but {
+    display: block;
+    width: 31px;
+    height: 31px;
+    left: 0;
+    right: 0;
+    margin-top: 14px;
+    margin-right: 14px;
+    margin-left: auto;
+    border: 1px solid #AFB1B8;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 0;
   }
 
   .modal {
@@ -407,9 +417,34 @@
 
  .cection-foto {
   padding-bottom: 94px;
-  /* <!--наша команда--> */
  }
 
+ .label {
+    position: absolute;
+    /* display: flex; */
+    content: "";
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 370px;
+    height: 70px;
+    bottom: 0;
+    left: 0;
+    /* font-weight: 700; */
+    /* font-size: 14px; */
+    /* line-height: 1.14; */
+    /* text-align: center; */
+    /* letter-spacing: 0.03em; */
+    /* text-transform: uppercase; */
+    /* background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)); */
+    color: #FFFFFF;
+  
+ }
+
+ 
+ .ebayt-foto {
+  position: relative;
+ }
+/* <!--наша команда--> */
  /* team */
 
  .team {
@@ -820,7 +855,7 @@ fill: currentColor;
   justify-content: center;
   align-items: center;
   width: 170px;
-  height: 90px;
+  height: 92px;
   
  }
 
