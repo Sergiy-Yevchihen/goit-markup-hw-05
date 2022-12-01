@@ -269,6 +269,17 @@
     pointer-events: none;
   }
 
+  .modal-of {
+    fill: #bf4e4e;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+  }
+  .modal-but {
+    fill: #235711;
+    
+  }
+
   .modal {
     position: absolute;
     top: 50%;
