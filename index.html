@@ -77,20 +77,29 @@
      <section class="section-foto">
           <div class="contarner">
              <h2 class="section-title">Чим ми займаємося</h2>
-             <ul class="list-ebayt list">     
-                 <li class="ebayt-foto"><img src="./images/img_5.jpg" alt="foto" width="370"></li>
-                  <div class="label">
-                    <p>Десктопні додатки</p>
-                  </div>                  
-                 <li class="ebayt-foto"><img src="./images/img_6.jpg" alt="foto" width="370"></li>
-                  <div class="label">
-                    <p>Мобільні додатки</p>
-                  </div>
-                 <li class="ebayt-foto"><img src="./images/img_7.jpg" alt="foto" width="370"></li> 
-                  <div class="label">
-                    <p>Дизайнерські рішення</p>
-                  </div>
-              </ul>
+                <ul class="list-ebayt list"> 
+                    <li class="ebayt-foto"><img src="./images/img_5.jpg" alt="foto" width="370">
+                        <div class="ebayt-cart">                    
+                            <div class="label">
+                                <p>Десктопні додатки</p>
+                            </div> 
+                        </div>                
+                    </li> 
+                    <li class="ebayt-foto"><img src="./images/img_6.jpg" alt="foto" width="370">
+                        <div class="ebayt-cart">   
+                            <div class="label">
+                                <p>Мобільні додатки</p>
+                            </div>
+                        </div> 
+                    </li> 
+                    <li class="ebayt-foto"><img src="./images/img_7.jpg" alt="foto" width="370"> 
+                        <div class="ebayt-cart">  
+                            <div class="label">
+                                <p>Дизайнерські рішення</p>
+                            </div>
+                        </div> 
+                    </li>
+                </ul>
             </div>      
      </section>
         <!--наша команда-->
@@ -266,16 +275,7 @@
               </ul>
           </div>
       </section>
-      <div class="backdrop s-hidden" data-modal>
-        <div class="modal">
-            <button class="modal-but" data-modal-close >
-                <svg width="18" height="18" class="modal-of">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
-
-            </button>
-        </div>
-      </div>
+     
     </main>
  <!--футер-->    
         <footer class="aside">
@@ -285,8 +285,8 @@
                  <address class="info">         
                        <p lang="uk" class="aside-text">м. Київ, пр-т Лесі Українки, 26</p> 
                        <ul class="begin-nav list">   
-                         <li class="footr-eml"><a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a></li>
-                         <li class="footer-tel"><a href="tel:+380961111111" class="link">+380961111111</a></li>                    
+                         <li class="footr-eml"><a href="mailto:info@devstudio.com" class="asad link">info@devstudio.com</a></li>
+                         <li class="footer-tel"><a href="tel:+380961111111" class="asad link">+380961111111</a></li>                    
                         </ul> 
                      </address>              
               </div> 
@@ -317,7 +317,16 @@
                  </div>                
             </div>
         </footer>
- 
- <script src="./js/modal.js"></script> 
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="modal-but" data-modal-close >
+                    <svg width="18" height="18" class="modal-of">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg>
+    
+                </button>
+            </div>
+        </div>    
+      <script src="./js/modal.js"></script> 
 </body>
 </html>
